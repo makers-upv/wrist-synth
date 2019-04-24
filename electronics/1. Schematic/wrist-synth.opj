@@ -1,0 +1,103 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\attiny.olb"
+        (Type "Schematic Library")))
+    (File ".\wrist-synth.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("JACK 3.5MM"
+      (FullPartName "JACK 3.5MM.Normal")
+      (LibraryName
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\WRIST-SYNTH\ELECTRONICS\1. SCHEMATIC\ATTINY.OLB")
+      (DeviceIndex "0"))
+    (SPEAKER
+      (FullPartName "SPEAKER.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ATTINY85
+      (FullPartName "ATTINY85.Normal")
+      (LibraryName
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\WRIST-SYNTH\ELECTRONICS\1. SCHEMATIC\ATTINY.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "jaime")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\wrist-synth.dsn")
+      (Path "Design Resources" ".\wrist-synth.dsn" "Wrist Synth")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\attiny.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\wrist-synth.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 208"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1186 52 409")
+        (Scroll "1492 1618")
+        (Zoom "236")
+        (Occurrence "/"))
+      (Path
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\WRIST-SYNTH\ELECTRONICS\1. SCHEMATIC\WRIST-SYNTH.DSN")
+      (Schematic "Wrist Synth")
+      (Page "0. Cover & Revision"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1212 78 435")
+        (Scroll "1492 1618")
+        (Zoom "236")
+        (Occurrence "/"))
+      (Path
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\WRIST-SYNTH\ELECTRONICS\1. SCHEMATIC\WRIST-SYNTH.DSN")
+      (Schematic "Wrist Synth")
+      (Page "1. Top")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))
